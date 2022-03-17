@@ -18,7 +18,7 @@ function getEmployeeByName(employeeName) {
   // seu código aqui
   const objFunc = data.employees;
   if (employeeName === undefined) return {};
-  return objFunc.find((e) => (e.firstName === employeeName || e.lastName === employeeName)); // Diminui o nome do meu item porque o Lint estava reclamando pelo tamanho da linha
+  return objFunc.find((e) => (e.firstName === employeeName || e.lastName === employeeName)); // Diminui o nome do meu item porque o Lint estava reclamando do tamanho da linha
 }
 
 // console.log(getEmployeeByName('Bethea'));
